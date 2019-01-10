@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yokoiwahiroki/preact-test.git"
-  },
+  "repository": "git+https://github.com/yokoiwahiroki/preact-test.git",
   "keywords": [
     "none"
   ],
@@ -18,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/yokoiwahiroki/preact-test/issues"
   },
-  "homepage": "https://github.com/yokoiwahiroki/preact-test#readme"
+  "homepage": "https://github.com/yokoiwahiroki/preact-test#readme",
+  "dependencies": {
+    "emotion": "^10.0.6",
+    "gsap": "^2.0.2",
+    "immutable": "^4.0.0-rc.12",
+    "preact": "^8.4.2",
+    "react": "^16.7.0",
+    "ress": "^1.2.2",
+    "xstream": "^11.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.1",
+    "webpack-dev-server": "^3.1.14"
+  }
 }
