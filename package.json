@@ -2,9 +2,8 @@
   "name": "preact-test",
   "version": "1.0.0",
   "description": "preact + emotion + TweenLite project test",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dashboard -- webpack-dev-server -d --hot --inline"
   },
   "repository": "git+https://github.com/yokoiwahiroki/preact-test.git",
   "keywords": [
@@ -26,7 +25,16 @@
     "xstream": "^11.7.0"
   },
   "devDependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dashboard": "^2.0.0",
     "webpack-dev-server": "^3.1.14"
   }
 }
